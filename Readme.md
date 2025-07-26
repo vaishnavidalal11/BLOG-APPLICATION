@@ -37,7 +37,7 @@ Blog-Website/
 │   │   ├── App.js
 │   │   └── index.js
 │   ├── package.json
-│   └── README.md
+│   
 │
 └── server/
     ├── controller/
@@ -138,11 +138,3 @@ npm install
 - For MongoDB Atlas, whitelist your IP in the Atlas dashboard.
 - For image uploads, GridFS is used; ensure your MongoDB instance supports it.
 
----
-"# BLOG-APPLICATION" 
-"# BLOG-APPLICATION" 
-"# BLOG-APPLICATION" 
-"# BLOG-APPLICATION" 
-"# BLOG-APPLICATION" 
-"# BLOG-APPLICATION" 
-"# BLOG-APPLICATION" 
