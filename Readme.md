@@ -1,6 +1,7 @@
 # MERN Blog Website
 
-This project is a full-stack blog website built with the MERN stack (MongoDB, Express.js, React.js, Node.js).
+A full-stack blog platform built with the MERN stack (MongoDB, Express.js, React.js, Node.js).  
+Create, manage, and explore blog posts with a modern, responsive UI and secure backend.
 
 ---
 
@@ -26,7 +27,7 @@ This project is a full-stack blog website built with the MERN stack (MongoDB, Ex
 ```
 Blog-Website/
 │
-├── client/
+├── client/         # React frontend
 │   ├── public/
 │   ├── src/
 │   │   ├── components/
@@ -37,28 +38,29 @@ Blog-Website/
 │   │   ├── App.js
 │   │   └── index.js
 │   ├── package.json
-│   
+│   └── .gitignore
 │
-└── server/
+└── server/         # Node.js backend
     ├── controller/
     ├── database/
     ├── model/
     ├── routes/
     ├── utils/
-    ├── .env
+    ├── .env           # (not committed)
     ├── index.js
-    └── package.json
+    ├── package.json
+    └── .gitignore
 ```
 
 ---
 
-## How to Run Locally
+## Getting Started
 
 ### Prerequisites
 
-- Node.js (v16 recommended for client)
-- npm
-- MongoDB (local or Atlas cluster)
+- [Node.js](https://nodejs.org/) (v16 recommended for client)
+- [npm](https://www.npmjs.com/)
+- [MongoDB](https://www.mongodb.com/) (local or Atlas cluster)
 
 ---
 
@@ -134,7 +136,23 @@ npm install
 
 ## Notes
 
-- Make sure your MongoDB connection string in `server/database/db.js` matches your `.env` credentials.
+- Ensure your MongoDB connection string in `server/database/db.js` matches your `.env` credentials.
 - For MongoDB Atlas, whitelist your IP in the Atlas dashboard.
 - For image uploads, GridFS is used; ensure your MongoDB instance supports it.
+
+---
+
+## Tech Stack
+
+- **Frontend:** React, Material-UI, Axios
+- **Backend:** Node.js, Express.js, Mongoose, JWT, Multer, GridFS
+- **Database:** MongoDB (Atlas or local)
+
+---
+
+## Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
+---
 
